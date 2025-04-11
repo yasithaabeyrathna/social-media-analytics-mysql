@@ -18,10 +18,6 @@ This project is a *Social Media Analytics system* built using *MySQL, designed t
 
 The ER Diagram below illustrates the relationships between core entities like users, posts, likes, comments, and others. 
 
-### ER Diagram:
-
-![ER Diagram](docs/ERD.png)
-
 ### ERD Explanation:
 
 - *users*: Contains user information like username, email, and created_at
@@ -37,7 +33,16 @@ The ER Diagram below illustrates the relationships between core entities like us
 
 ## Folder Structure
 
-social-media-analytics/ ├── database/ │ ├── schema.sql # Full database schema │ └── sample_data.sql # Sample data to test queries ├── queries/ │ └── analytics_queries.sql # Real-world analytics SQL queries ├── docs/ │ ├── ERD.png # ER diagram image │ └── screenshots/ # (Optional) UI or DB screenshots ├── README.md ├── LICENSE └── .gitignore
+social-media-analytics/ 
+├── database/ 
+│ ├── schema.sql # Full database schema 
+│ └── sample_data.sql # Sample data to test queries 
+├── queries/ 
+│ └── analytics_queries.sql # Real-world analytics SQL queries 
+├── docs/ 
+│ ├── ERD.png # ER diagram image 
+│ └── screenshots/ # (Optional) UI or DB screenshots
+├── README.md
 
 
 ---
